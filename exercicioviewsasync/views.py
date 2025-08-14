@@ -18,3 +18,5 @@ async def contador_async(request):
         output += r.text
 
     return HttpResponse(f"<pre>{output}</pre>")
+
+# Comentário temporário para teste de PR
